@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.8" client="site" method="upgrade">
+	<name>MOD_MSCONTACTBTNS</name>
+	<creationDate>19/10/2021</creationDate>
+	<author>Koen Vandezande</author>
+	<authorEmail>koen@rioguides.biz</authorEmail>
+	<authorUrl>https://rioguides.biz</authorUrl>
+	<copyright>RioGuides.Biz</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.0</version>
+	<description>MOD_MSCONTACTBTNS_XML_DESCRIPTION</description>
+
+	<files>
+		<filename module="mod_mscontactbtns">mod_mscontactbtns.php</filename>
+		<folder>tmpl</folder>
+		<folder>language</folder>
+		<filename>mod_mscontactbtns.xml</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/mod_mscontactbtns.ini</language>
+		<language tag="en-GB">en-GB/mod_mscontactbtns.sys.ini</language>
+		<language tag="es-ES">es-ES/mod_mscontactbtns.ini</language>
+		<language tag="es-ES">es-ES/mod_mscontactbtns.sys.ini</language>
+	</languages>
+	<!-- Update servers -->
+	<updateservers>
+		<server type="extension" priority="1" name="M.S. Contact Me Buttons">https://rioguides.biz/joomla_updates/mod_mscontactbtns.xml</server>
+	</updateservers>
+</extension>
