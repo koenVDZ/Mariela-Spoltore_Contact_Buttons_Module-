@@ -20,7 +20,7 @@ $lang->load('mod_mscontactbtns', JPATH_SITE);
 ?>
 <div class="contact_buttons">
   <div class="contact_button-item">
-    <span class="contact_button social_icon_es"><i class="fal fa-envelope"></i><?php echo Text::_('MOD_MSCONTACTBTNS_CORREO_ELEC'); ?></span>
+    <span class="contact_button social_icon_es"><i class="far fa-envelope"></i><?php echo Text::_('MOD_MSCONTACTBTNS_CORREO_ELEC'); ?></span>
   </div>
   <div class="contact_button-item">
     <a class="contact_button-anchor" href="https://api.whatsapp.com/send?phone=5491157548291" target="_blank" rel="noopener noreferrer">
