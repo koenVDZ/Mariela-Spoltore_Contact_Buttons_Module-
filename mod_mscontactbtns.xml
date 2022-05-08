@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.1" encoding="utf-8"?>
 <extension type="module" version="3.8" client="site" method="upgrade">
 	<name>MOD_MSCONTACTBTNS</name>
 	<creationDate>19/10/2021</creationDate>
